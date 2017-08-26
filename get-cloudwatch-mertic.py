@@ -1,3 +1,6 @@
+#All sample code is provided for illustrative purposes only. These examples have not been thoroughly tested under all conditions. 
+#The owner, therefore, cannot guarantee or imply reliability, serviceability, or function of these programs.
+
 import boto3
 import datetime
 
