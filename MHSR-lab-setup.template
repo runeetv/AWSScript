@@ -227,7 +227,12 @@
      }
   },
 
+
   "Outputs" : {
+    "InstanceSecurityGroup" : {
+      "Description" : "Security group used by EC2 instances",
+      "Value" : { "Ref" : "InstanceSecurityGroup" }
+    },
     "DBInstanceId" : {
       "Description" : "InstanceId of the newly created DB EC2 instance",
       "Value" : { "Ref" : "EC2Instance" }
